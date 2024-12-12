@@ -4,6 +4,8 @@ const Navigation = () => {
  return (
      <nav className={s.container}>
         <Link to='/generate'>Generate QR code</Link>
+        <Link to='/login'>Login</Link>
+        <Link to='/registration'>Registration</Link>
         <Link to='/scan'>Scan QR code</Link>
         <Link to='/generateHistory'>History generate QR code</Link>
         <Link to='/scanHistory'>History scan QR code</Link>
